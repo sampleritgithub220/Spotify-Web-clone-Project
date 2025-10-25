@@ -1,0 +1,61 @@
+.border{
+    border: 2px solid rgb(49, 49, 49);
+    margin: 3px;
+}
+.flex{
+    display: flex;
+    
+
+}
+.justify-content{
+    justify-content: center;
+}
+.align-item{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: rgb(226, 226, 226);
+}
+.invert{
+    filter: invert(1);
+}
+.bg-gray{
+    background-color: rgb(10, 10, 10);
+}
+.rounder{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 19px;
+}
+/* Dark Scrollbar Style */
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #111; /* dark background */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444; /* darker thumb */
+    border-radius: 10px;
+    border: 2px solid #111; /* adds spacing effect */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #666; /* lighter on hover */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #444 #111; /* thumb color | track color */
+  }
+  
